@@ -5,4 +5,5 @@ Auth:
   #language: semgrep
 SCA:
   language: ruby
+  target : app/assets/config
 #Secret_Scan: true
