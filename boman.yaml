@@ -5,6 +5,6 @@ Auth:
   #language: semgrep
 SCA:
   language: ruby
-  type: sbom
+  #type: sbom
   target: app/assets/config/bom.json
 #Secret_Scan: true
