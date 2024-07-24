@@ -5,5 +5,6 @@ Auth:
   #language: semgrep
 SCA:
   language: ruby
+  type: lockfile
   target : app/assets/config
 #Secret_Scan: true
