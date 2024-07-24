@@ -5,6 +5,6 @@ Auth:
   #language: semgrep
 SCA:
   language: ruby
-  type: lockfile
+  type: sbom
   #target : Gemfile.lock
 #Secret_Scan: true
