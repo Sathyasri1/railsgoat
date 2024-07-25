@@ -14,4 +14,5 @@ Auth:
 #Secret_Scan: true
 container_scan:
   type: config
+  target: openshift-configs
   #target: debian:unstable-slim
