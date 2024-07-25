@@ -13,5 +13,5 @@ Auth:
   #app/assets/config/bom.json
 #Secret_Scan: true
 Container_Scan:
-  type: Config
-  #target: debian:unstable-slim
+  type: image
+  target: debian:unstable-slim
