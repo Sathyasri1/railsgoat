@@ -14,3 +14,4 @@ Auth:
 #Secret_Scan: true
 Container_Scan:
   type: config
+  target: openshift-configs/Dockerfile
