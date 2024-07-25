@@ -40,10 +40,10 @@ pipeline {
             steps {
                 script {
                     // Install boman-cli
-                    sh 'pip install --no-cache-dir --upgrade boman-cli'
+                    sh 'pip install --extra-index-url https://test.pypi.org/simple/ boman-cli-uat==14.0.2'
                     
                     // Run boman-cli with the specified command
-                    sh '~/.local/bin/boman-cli -a run -cicd jenkins'
+                    sh '~/.local/bin/boman-cli-uat -a run -u https://qa.boman.ai'
                 }
             }
         }
