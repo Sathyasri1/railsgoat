@@ -6,5 +6,5 @@ Auth:
 SCA:
   language: ruby
   type: sbom
-  #target: app/assets/config/bom.json
+  target: app/assets/config/bom.json
 #Secret_Scan: true
