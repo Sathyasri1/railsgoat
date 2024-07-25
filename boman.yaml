@@ -12,6 +12,6 @@ Auth:
   #target: Gemfile.lock
   #app/assets/config/bom.json
 #Secret_Scan: true
-Container_Scan:
+container_scan:
   type: image
   target: debian:unstable-slim
