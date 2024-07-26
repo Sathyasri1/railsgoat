@@ -6,13 +6,13 @@ Auth:
 #DAST:
   #type: WEB
   #URL: https://railsgoat.cktricky.com/
-SCA:
-  language: ruby
-  type: sbom
-  target: app/assets/config/bom.json
+#SCA:
+  #language: ruby
+  #type: sbom
+  #target: app/assets/config/bom.json
   #target: Gemfile.lock
 #Secret_Scan: true
-#container_scan:
-  #type: config
+container_scan:
+  type: config
   #target: /openshift-configs/Dockerfile
   #target: debian:unstable-slim
