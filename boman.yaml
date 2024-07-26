@@ -9,7 +9,7 @@ Auth:
 SCA:
   language: ruby
   type: sbom
-  target: app/assets/config/bom.json
+  target: /app/assets/config/bom.json
   #target: Gemfile.lock
 #Secret_Scan: true
 #container_scan:
