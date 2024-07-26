@@ -1,13 +1,13 @@
 Auth:
   project_token: c10d4175-fffa-41bc-985f-ec10c9e32d64
   customer_token: 5b2f4dbd-a873-4042-8441-ff38fef71ed5
-#SAST:
-  #language: semgrep
+SAST:
+  language: semgrep
 #DAST:
   #type: WEB
   #URL: https://railsgoat.cktricky.com/
-SCA:
-  language: ruby
+#SCA:
+  #language: ruby
   #type: lockfile
   #target: /app/assets/config/bom.json
   #target: Gemfile.lock
