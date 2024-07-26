@@ -8,9 +8,9 @@ Auth:
   #URL: https://railsgoat.cktricky.com/
 SCA:
   language: ruby
-  type: lockfile
+  #type: lockfile
   #target: /app/assets/config/bom.json
-  target: Gemfile.lock
+  #target: Gemfile.lock
 #Secret_Scan: true
 #container_scan:
   #type: config
