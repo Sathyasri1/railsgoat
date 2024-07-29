@@ -10,7 +10,7 @@ SCA:
   language: ruby
   type: sbom
   target: app/assets/config/bom.json
-  type:lockfile
+  type: lockfile
   target: Gemfile.lock
 #Secret_Scan: true
 container_scan:
