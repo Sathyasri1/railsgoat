@@ -8,13 +8,13 @@ DAST:
   URL: https://railsgoat.cktricky.com/
 SCA:
   language: ruby
-  #type: sbom
-  #target: app/assets/config/bom.json
+  type: sbom
+  target: app/assets/config/bom.json
   #type: lockfile
   #target: Gemfile.lock
 Secret_Scan: true
 container_scan:
-  type: config
+  #type: config
   #target: /openshift-configs/Dockerfile
   #type: image
   #target: debian:unstable-slim
