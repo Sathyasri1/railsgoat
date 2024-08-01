@@ -18,3 +18,4 @@ container_scan:
   #target: /openshift-configs/Dockerfile
   #type: image
   #target: debian:unstable-slim
+SBOM: true
