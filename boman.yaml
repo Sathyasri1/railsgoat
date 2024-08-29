@@ -13,8 +13,8 @@ SCA:
   #type: lockfile
   #target: Gemfile.lock
 Secret_Scan: true
-#container_scan:
-  #type: config
+container_scan:
+  type: config
   #target: /openshift-configs/Dockerfile
   #type: image
   #target: debian:unstable-slim
