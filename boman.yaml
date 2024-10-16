@@ -1,6 +1,6 @@
 Auth:
-  project_token: 1dcb2616-d4bc-4933-874e-e401fc863362 #5a13ac89-a5cc-4b4c-b6ad-dd20ff73babb #2b406c50-f238-4317-a06a-e66446e9d58b
-  customer_token: b1de9563-38b8-40d1-80d9-62b88af4749b #4941f85a-5453-4f94-9247-d5565b4bd116 #ad752d56-f8e8-4b3c-a70a-d35abaee21b3
+  project_token: 2b406c50-f238-4317-a06a-e66446e9d58b #5a13ac89-a5cc-4b4c-b6ad-dd20ff73babb #2b406c50-f238-4317-a06a-e66446e9d58b
+  customer_token: ad752d56-f8e8-4b3c-a70a-d35abaee21b3 #4941f85a-5453-4f94-9247-d5565b4bd116 #ad752d56-f8e8-4b3c-a70a-d35abaee21b3
 SAST:
   language: semgrep
 DAST:
